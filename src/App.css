@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+  }
+  
+  .part-a {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: #b26666;
+  }
+  
+  .part-b {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: #6bcbe8;
+  }
+  
+  .part-c {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-color: #8f62c3;
+  }
+  
+  .part-d {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: #52ee8b;
+  }
+  
+  .box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #df90a7;
+    cursor: move;
+  }
+  
